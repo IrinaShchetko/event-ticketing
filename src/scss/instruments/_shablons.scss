@@ -25,7 +25,12 @@
 %button {
     font-family: 'DM Sans', sans-serif;
     font-weight: var(--title-font-weight);
+<<<<<<< HEAD
     width: 182px;
     height: 60px;
+=======
+    min-width: 182px;
+    min-height: 60px;
+>>>>>>> pixelperfect
     border-radius: 50px;
 }

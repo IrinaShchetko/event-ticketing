@@ -38,10 +38,10 @@
 .searchbox-form__item {
     display: flex;
     flex-direction: column;
-    max-width: calc(100%/3 - 4.29rem);
+    min-width: 290px;
 
     @media (max-width:1024px) {
-        max-width: calc(100%/3 - 10px);
+        min-width: 200px;
     }
 
     @media (max-width:768px) {
@@ -51,12 +51,14 @@
     @media (max-width:560px) {
         min-width: 290px;
     }
+
+    @media (max-width:360px) {
+        min-width: 200px;
+    }
 }
 
-.searchbox-form__label,
-.searchbox-form__label-datalist {
+.searchbox-form__label {
     margin: 1.88rem 0 0.69rem;
-    display: block;
     @extend %item__description;
     @include mixFont(1.14rem, 1.5);
     color: var(--primary-color);
@@ -66,7 +68,8 @@
     }
 }
 
-.searchbox-form__input {
+.searchbox-form__input,
+.searchbox-form__select {
     padding: 5px;
     background-color: transparent;
     border: none;
@@ -74,17 +77,14 @@
     color: var(--primary-color);
     @extend %item__title;
     @include mixFont(1.57rem, 1.3);
+
 }
 
-.searchbox-form__label-datalist {
-    position: relative;
-
-    &:before {
-        content: url("../assets/icons/datalist_arrow.svg");
-        position: absolute;
-        pointer-events: none;
-        top: 150%;
-        right: 1%;
-        z-index: 1;
-    }
+.searchbox-form__select {
+    background-color: var(--color-title);
+    appearance: none;
+    background-image: url('../assets/icons/form_arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: calc(100% - 25px);
 }
