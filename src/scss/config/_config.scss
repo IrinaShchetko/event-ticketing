@@ -1,0 +1,34 @@
+html {
+    font-size: 14px;
+    //  rem 
+    scroll-behavior: smooth;
+    scroll-padding: 60px;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    padding-left: 0px;
+}
+
+a {
+    color: var(--primary-color);
+    text-transform: capitalize;
+
+    &:hover {
+        color: var(--primary-color-gradient);
+    }
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.eot');
+    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Regular.woff') format('woff'),
+        url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

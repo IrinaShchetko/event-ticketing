@@ -1,0 +1,30 @@
+%title {
+    font-family: 'Proxima Nova Regular';
+    font-weight: var(--title-font-weight);
+    font-size: 2.86rem;
+    line-height: 1.22;
+}
+
+%subtitle {
+    font-family: 'Proxima Nova Regular';
+    font-weight: var(--description-font-weight);
+    font-size: 1.29rem;
+    line-height: 1.3;
+}
+
+%item__title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: var(--title-font-weight);
+}
+
+%item__description {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: var(--description-font-weight);
+}
+
+%button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: var(--title-font-weight);
+    padding: 18px 45px;
+    border-radius: 50px;
+}

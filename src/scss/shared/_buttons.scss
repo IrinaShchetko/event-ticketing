@@ -1,0 +1,65 @@
+.navbar__button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: var(--item-font-weight);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 50px;
+
+    &:hover {
+        background-color: var(--primary-color);
+        border-color: none;
+        color: var(--primary-color-gradient);
+    }
+}
+
+.firstbold-content__button,
+.creating-description__button {
+    @extend %button;
+    color: var(--primary-color);
+    border: 1.5px solid var(--primary-color);
+
+    &:hover {
+        background-color: var(--primary-color-gradient);
+        border-color: var(--primary-color-gradient);
+    }
+}
+
+.firstbold-content__button {
+    margin-right: 1.43rem;
+
+    @media (max-width:550px) {
+        margin-bottom: 1.25rem;
+    }
+}
+
+.upcoming__button,
+.blog__button {
+    @extend %button;
+    color: var(--secondary-color-gradient);
+    border: 1.5px solid var(--secondary-color-gradient);
+}
+
+.upcoming__button {
+    margin: 4.46rem auto 4.57rem;
+}
+
+.blog__button {
+    margin: 3.57rem auto 3.93rem;
+}
+
+.footer-subscription__button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: var(--description-font-weight);
+    color: var(--primary-color);
+    padding: 15.2px 30.4px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color-gradient);
+
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--primary-color-gradient);
+        border: 1.5px solid var(--primary-color-gradient);
+    }
+}

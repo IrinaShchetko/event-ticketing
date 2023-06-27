@@ -1,0 +1,86 @@
+.firstbold-searchbox {
+    margin: 0 auto;
+    max-width: 1086px;
+    padding: 0 15px;
+}
+
+.wrapper-searchbox {
+    min-height: 140px;
+    position: relative;
+}
+
+.firstbold-searchbox__form {
+    position: absolute;
+    bottom: 50%;
+    padding: 10px 40px;
+    width: 100%;
+    background-color: var(--color-title);
+    min-height: 140px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
+    display: flex;
+    justify-content: center;
+    gap: 4.29rem;
+
+    @media (max-width:1024px) {
+        gap: 10px;
+    }
+
+    @media (max-width:560px) {
+        bottom:-30%;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5px;
+    }
+}
+
+.searchbox-form__item {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100%/3 - 4.29rem);
+
+    @media (max-width:1024px) {
+        max-width: calc(100%/3 - 10px);
+    }
+
+    @media (max-width:560px) {
+        min-width: 290px;
+    }
+}
+
+.searchbox-form__label,
+.searchbox-form__label-datalist {
+    margin: 1.88rem 0 0.69rem;
+    display: block;
+    @extend %item__description;
+    @include mixFont(1.14rem, 1.5);
+    color: var(--primary-color);
+
+    @media (max-width:560px) {
+        margin-top: 10px;
+    }
+}
+
+.searchbox-form__input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(119, 120, 176, 1);
+    color: var(--primary-color);
+    @extend %item__title;
+    @include mixFont(1.57rem, 1.3);
+}
+
+.searchbox-form__label-datalist {
+    position: relative;
+
+    &:before {
+        content: url("../assets/icons/datalist_arrow.svg");
+        position: absolute;
+        pointer-events: none;
+        top: 100%;
+        right: 1%;
+        z-index: 1;
+    }
+}
