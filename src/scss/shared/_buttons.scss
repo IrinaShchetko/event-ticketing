@@ -24,11 +24,13 @@
         border-color: var(--primary-color-gradient);
     }
 }
-
+.creating-description__button{
+    margin: auto;
+}
 .firstbold-content__button {
     margin-right: 1.43rem;
 
-    @media (max-width:550px) {
+    @media (max-width:560px) {
         margin-bottom: 1.25rem;
     }
 }

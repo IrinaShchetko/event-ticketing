@@ -10,7 +10,7 @@
     visibility: hidden;
 }
 
-@keyframes spin {
+@keyframes spinner {
     0% {
         transform: rotate(0deg);
     }
@@ -31,34 +31,9 @@
     &:focus+.blog__loader {
         opacity: 1;
         visibility: visible;
-        animation: spin;
+        animation: spinner;
         animation-duration: 1s;
         animation-timing-function: linear;
         animation-iteration-count: 2;
     }
 }
-
-// .sms{
-
-//     opacity: 0;
-//     visibility: hidden;
-// }
-// @keyframes text {
-//     0% { transform: translateX(40px) }
-//     100% { transform: translateX(100px); }
-// }
-// .header__navbar{
-//     &:focus + .sms{
-
-
-
-//     width: 50px;
-//     height: 50px;
-// background-color: aqua;
-//     opacity: 1;
-//     visibility: visible;
-//     animation: text;
-//     animation-duration: 1s;
-//     animation-timing-function: linear;
-//     animation-iteration-count: infinite;  
-// }}

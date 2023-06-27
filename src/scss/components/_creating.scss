@@ -41,8 +41,6 @@
 }
 
 .creating__description {
-    align-self: center;
-
     @media (max-width:1024px) {
         margin-top: 30px;
         display: flex;
@@ -57,7 +55,7 @@
 }
 
 .creating-description__text {
-    margin: 21px auto 1.5rem;
+    margin: 1.5rem auto;
     color: rgba(39, 39, 39, 1);
     @extend %item__description;
     @include mixFont(1.125rem, 1.3);

@@ -3,23 +3,14 @@
     display: flex;
     flex-direction: column;
     gap: 1.86rem;
-}
 
-.section-header__title {
-    @extend %title;
-    color: var(--color-title);
-}
+    &__title {
+        @extend %title;
+        color: var(--color-title);
+    }
 
-.section-header__subtitle {
-    @extend %subtitle;
-    color: var(--color-subtitle);
-}
-
-.creating-description__title {
-    @include mixFont(2.43rem, 1.3);
-}
-
-.creating-description__text {
-    @extend %item__description;
-    @include mixFont(1.29rem, 1.3);
+    &__subtitle {
+        @extend %subtitle;
+        color: var(--color-subtitle);
+    }
 }
