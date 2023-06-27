@@ -26,8 +26,8 @@
         gap: 10px;
     }
 
-    @media (max-width:560px) {
-        bottom:-30%;
+    @media (max-width:768px) {
+        bottom: -30%;
         padding: 10px;
         flex-direction: column;
         align-items: center;
@@ -42,6 +42,10 @@
 
     @media (max-width:1024px) {
         max-width: calc(100%/3 - 10px);
+    }
+
+    @media (max-width:768px) {
+        min-width: 350px;
     }
 
     @media (max-width:560px) {
@@ -79,7 +83,7 @@
         content: url("../assets/icons/datalist_arrow.svg");
         position: absolute;
         pointer-events: none;
-        top: 100%;
+        top: 150%;
         right: 1%;
         z-index: 1;
     }

@@ -1,8 +1,9 @@
 .brand {
-    max-width: 1223px;
+    max-width: 1123px;
     margin: 9.43rem auto 0;
 
     @media (max-width:1200px) {
+        margin: 30px auto;
         padding: 0 15px;
     }
 
@@ -11,7 +12,7 @@
     }
 }
 
-.brand .section-header{
+.brand .section-header {
     gap: 1.57rem;
 }
 
@@ -37,6 +38,10 @@
 }
 
 .brand-content__item {
+    @media (max-width:1200px) {
+        width: 90%;
+    }
+
     @media (max-width:1024px) {
         width: 30%;
     }

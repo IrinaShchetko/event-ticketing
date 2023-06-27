@@ -1,11 +1,16 @@
 .firstbold-header {
     position: relative;
-    top: 2.04rem;
+    height: 100px;
     margin: 0 auto;
     max-width: 1440px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media (max-width:768px) {
+        padding: 0 15px;
+        justify-content: space-between;
+    }
 }
 
 .firstbold-header__navbar {
@@ -13,7 +18,7 @@
     align-items: center;
     gap: 50px;
 
-    @media (max-width:560px) {
+    @media (max-width:768px) {
         display: none;
     }
 }
@@ -28,7 +33,7 @@
 }
 
 .firstbold-header__menu-burger {
-    @media (max-width:550px) {
+    @media (max-width:768px) {
         & {
             position: relative;
             width: 24px;
