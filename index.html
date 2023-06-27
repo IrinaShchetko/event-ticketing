@@ -62,16 +62,13 @@
                             aria-label="Write the place where the event occurred">
                     </div>
                     <div class="searchbox-form__item">
-                        <label class="searchbox-form__label-datalist" for="search-time">Time</label>
-                        <input class="searchbox-form__input" list="time-of-event" type="text" placeholder="Any date"
-                            id="search-time" name="search-time"
-                            aria-label="Select time period to search for this event">
-                        <datalist class="searchbox-form__datalist" id="time-of-event">
-                            <option class="searchbox-form__option" value="Any date">Any date</option>
+                        <label class="searchbox-form__label" for="search-time">Time</label>
+                        <select class="searchbox-form__select" name="search-time" id="search-time">
+                            <option class="searchbox-form__option" value="Any date" selected>Any date</option>
                             <option class="searchbox-form__option" value="Last week">Last week</option>
                             <option class="searchbox-form__option" value="Last month">Last month</option>
                             <option class="searchbox-form__option" value="Last year">Last year</option>
-                        </datalist>
+                        </select>
                     </div>
                 </form>
             </div>
@@ -90,7 +87,7 @@
                             <option value="weekends">Weekends</option>
                         </select>
                         <select class="upcoming__header-select" name="type-event">
-                            <option value="event-type" selected>Event type</option>
+                            <option value="event-type" disabled selected>Event type</option>
                             <option value="concert">Concert</option>
                             <option value="festival">Festival</option>
                             <option value="exhibition">Exhibition</option>

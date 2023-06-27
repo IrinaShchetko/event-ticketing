@@ -1,3 +1,17 @@
-@import './config/reset'; @import './config/config'; @import './variables/variables'; @import './mixins/mixins'; @import './mixins/shablons';@import './shared/animation'; @import './shared/buttons'; @import './shared/section-header'; @import './shared/container'; @import './components/header'; @import './components/banner'; @import './components/search'; @import './components/upcoming'; @import './components/creating'; @import './components/brand'; @import './components/blog'; @import './components/footer';
-
-//очередность.сразу переменные,миксины.. 
+@import './config/reset';
+@import './variables/variables';
+@import './instruments/mixins';
+@import './instruments/shablons';
+@import './config/config';
+@import './shared/animation';
+@import './shared/buttons';
+@import './shared/section-header';
+@import './shared/container';
+@import './components/header';
+@import './components/banner';
+@import './components/search';
+@import './components/upcoming';
+@import './components/creating';
+@import './components/brand';
+@import './components/blog';
+@import './components/footer';
