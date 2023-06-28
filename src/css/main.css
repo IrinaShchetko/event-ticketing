@@ -51,7 +51,7 @@ a {
   font-weight: var(--title-font-weight);
 }
 
-.footer__copyright, .footer-subscription__input, .footer__description, .blog-content__author, .blog-content__description, .upcoming-archive__description, .searchbox-form__label, .creating-description__text {
+.footer__copyright, .footer-subscription__input, .footer__description, .blog-content__author, .blog-content__description, .creating-description__text, .upcoming-archive__description, .searchbox-form__label {
   font-family: "DM Sans", sans-serif;
   font-weight: var(--description-font-weight);
 }
@@ -96,53 +96,6 @@ a:hover {
   font-weight: normal;
   font-style: normal;
 }
-<<<<<<< HEAD
-input::-webkit-input-placeholder {
-  color: var(--primary-color);
-  font-size: 1.57rem;
-  line-height: 1.3;
-}
-input::-moz-placeholder {
-  color: var(--primary-color);
-  font-size: 1.57rem;
-  line-height: 1.3;
-}
-<<<<<<< HEAD
-
-.footer__copyright, .footer-subscription__input, .footer__description, .blog-content__author, .blog-content__description, .creating-description__text, .upcoming-archive__description, .searchbox-form__label,
-.searchbox-form__label-datalist {
-  font-family: "DM Sans", sans-serif;
-  font-weight: var(--description-font-weight);
-}
-
-.upcoming__button,
-.blog__button, .firstbold-content__button,
-.creating-description__button {
-  font-family: "DM Sans", sans-serif;
-  font-weight: var(--title-font-weight);
-  width: 182px;
-  height: 60px;
-  border-radius: 50px;
-=======
-input:-ms-input-placeholder {
-  color: var(--primary-color);
-  font-size: 1.57rem;
-  line-height: 1.3;
-}
-input::-ms-input-placeholder {
-  color: var(--primary-color);
-  font-size: 1.57rem;
-  line-height: 1.3;
-}
-input::placeholder {
-  color: var(--primary-color);
-  font-size: 1.57rem;
-  line-height: 1.3;
->>>>>>> pixelperfect
-}
-
-=======
->>>>>>> pixelperfect
 .upcoming__loader,
 .blog__loader {
   margin: -100px auto 0;
