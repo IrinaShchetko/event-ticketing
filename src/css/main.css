@@ -181,7 +181,7 @@ a:hover {
 .firstbold-content__button {
   margin-right: 1.43rem;
 }
-@media (max-width: 560px) {
+@media (max-width: 1200px) {
   .firstbold-content__button {
     margin-bottom: 1.25rem;
   }
@@ -366,7 +366,6 @@ a:hover {
 }
 
 .firstbold-content__picture {
-  border: 1px solid red;
   margin-top: 61px;
   position: relative;
   z-index: 1;
@@ -403,10 +402,14 @@ a:hover {
 }
 @media (max-width: 992px) {
   .firstbold-content__description {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0 15px;
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -458,7 +461,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   .firstbold-searchbox__form {
-    bottom: -30%;
+    bottom: -50%;
     padding: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -548,7 +551,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   .wrapper-upcoming {
-    margin-top: 70px;
+    margin-top: 7.14rem;
   }
 }
 
