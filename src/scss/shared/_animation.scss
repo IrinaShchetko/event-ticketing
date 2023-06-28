@@ -1,6 +1,16 @@
+.upcoming__animation {
+    margin: 4.46rem auto 4.57rem;
+    text-align: center;
+}
+
+.blog__animation {
+    margin: 3.57rem auto 3.93rem;
+    text-align: center;
+}
+
 .upcoming__loader,
 .blog__loader {
-    margin: -100px auto 0;
+    margin: auto;
     border: 10px solid var(--primary-color-gradient);
     border-top: 10px solid var(--secondary-color-gradient);
     border-radius: 50%;

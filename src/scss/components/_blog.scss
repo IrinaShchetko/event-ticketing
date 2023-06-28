@@ -1,7 +1,5 @@
-.wrapper-blog {
-    margin-top: 8.69rem;
-    display: flex;
-    flex-direction: column;
+.blog {
+    margin: 8.69rem auto 0;
 
     @media (max-width:560px) {
         margin-top: 30px;
