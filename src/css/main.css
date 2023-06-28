@@ -245,7 +245,7 @@ a:hover {
 
 .firstbold-header {
   position: relative;
-  padding-top: 24px;
+  height: 100px;
   margin: 0 auto;
   max-width: 1440px;
   display: -webkit-box;
@@ -362,10 +362,11 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 42.16px;
-  min-height: 720px;
+  min-height: 620px;
 }
 
 .firstbold-content__picture {
+  border: 1px solid red;
   margin-top: 61px;
   position: relative;
   z-index: 1;
@@ -429,6 +430,7 @@ a:hover {
 .wrapper-searchbox {
   min-height: 140px;
   position: relative;
+  z-index: 3;
 }
 
 .firstbold-searchbox__form {
