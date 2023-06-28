@@ -32,13 +32,13 @@
 
 .upcoming__button,
 .blog__button {
-    &:focus {
+    &:active {
         opacity: 0;
         visibility: hidden;
     }
 
-    &:focus+.upcoming__loader,
-    &:focus+.blog__loader {
+    &:active+.upcoming__loader,
+    &:active+.blog__loader {
         opacity: 1;
         visibility: visible;
         animation: spinner;

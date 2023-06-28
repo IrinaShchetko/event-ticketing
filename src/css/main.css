@@ -139,14 +139,14 @@ a:hover {
             transform: rotate(360deg);
   }
 }
-.upcoming__button:focus,
-.blog__button:focus {
+.upcoming__button:active,
+.blog__button:active {
   opacity: 0;
   visibility: hidden;
 }
-.upcoming__button:focus + .upcoming__loader, .upcoming__button:focus + .blog__loader,
-.blog__button:focus + .upcoming__loader,
-.blog__button:focus + .blog__loader {
+.upcoming__button:active + .upcoming__loader, .upcoming__button:active + .blog__loader,
+.blog__button:active + .upcoming__loader,
+.blog__button:active + .blog__loader {
   opacity: 1;
   visibility: visible;
   -webkit-animation: spinner;
@@ -214,7 +214,6 @@ a:hover {
 .footer-subscription__button:hover {
   background-color: var(--primary-color);
   color: var(--primary-color-gradient);
-  border: 1.5px solid var(--primary-color-gradient);
 }
 
 .section-header {
