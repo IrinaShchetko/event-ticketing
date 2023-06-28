@@ -45,28 +45,8 @@ a {
   line-height: 1.3;
 }
 
-input::-webkit-input-placeholder {
-  font-family: "DM Sans", sans-serif;
-  font-weight: var(--title-font-weight);
-}
-
-input::-moz-placeholder {
-  font-family: "DM Sans", sans-serif;
-  font-weight: var(--title-font-weight);
-}
-
-input:-ms-input-placeholder {
-  font-family: "DM Sans", sans-serif;
-  font-weight: var(--title-font-weight);
-}
-
-input::-ms-input-placeholder {
-  font-family: "DM Sans", sans-serif;
-  font-weight: var(--title-font-weight);
-}
-
 .footer-menu__title, .blog-content__title, .creating-description__title, .upcoming-archive__title, .upcoming-archive__date, .searchbox-form__input,
-.searchbox-form__select, input::placeholder {
+.searchbox-form__select {
   font-family: "DM Sans", sans-serif;
   font-weight: var(--title-font-weight);
 }
@@ -116,6 +96,7 @@ a:hover {
   font-weight: normal;
   font-style: normal;
 }
+<<<<<<< HEAD
 input::-webkit-input-placeholder {
   color: var(--primary-color);
   font-size: 1.57rem;
@@ -160,6 +141,8 @@ input::placeholder {
 >>>>>>> pixelperfect
 }
 
+=======
+>>>>>>> pixelperfect
 .upcoming__loader,
 .blog__loader {
   margin: -100px auto 0;
