@@ -1,4 +1,4 @@
-.firstbold-searchbox {
+.searchbox {
     margin: 0 auto;
     max-width: 1086px;
     padding: 0 15px;
@@ -10,7 +10,7 @@
     z-index: 3;
 }
 
-.firstbold-searchbox__form {
+.searchbox__form {
     position: absolute;
     bottom: 50%;
     padding: 10px 40px;
@@ -28,7 +28,7 @@
     }
 
     @media (max-width:768px) {
-        bottom: -50%;
+        bottom: -30%;
         padding: 10px;
         flex-direction: column;
         align-items: center;

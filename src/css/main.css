@@ -331,16 +331,14 @@ a:hover {
           box-sizing: border-box;
   margin: 0 auto;
   max-width: 100vw;
-}
-
-.firstbold-banner {
+  position: relative;
   background-image: url(../assets/images/photo_of_people_at_concert.png);
   background-color: var(--color-subtitle);
   background-size: cover;
   background-position: right;
   max-height: 720px;
 }
-.firstbold-banner::before {
+.firstbold::before {
   content: "";
   width: 100%;
   min-height: 720px;
@@ -348,15 +346,11 @@ a:hover {
   background: linear-gradient(118.98deg, rgba(237, 70, 144, 0.7) -2.11%, rgba(85, 34, 204, 0.7) 63.58%);
 }
 
-.wrapper-banner {
+.firstbold-content {
   position: relative;
   margin: 0 auto;
   max-width: 1440px;
-  max-height: 720px;
   padding: 0 15px;
-}
-
-.firstbold-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -426,7 +420,7 @@ a:hover {
   color: var(--primary-color);
 }
 
-.firstbold-searchbox {
+.searchbox {
   margin: 0 auto;
   max-width: 1086px;
   padding: 0 15px;
@@ -438,7 +432,7 @@ a:hover {
   z-index: 3;
 }
 
-.firstbold-searchbox__form {
+.searchbox__form {
   position: absolute;
   bottom: 50%;
   padding: 10px 40px;
@@ -457,13 +451,13 @@ a:hover {
   gap: 4.29rem;
 }
 @media (max-width: 1024px) {
-  .firstbold-searchbox__form {
+  .searchbox__form {
     gap: 10px;
   }
 }
 @media (max-width: 768px) {
-  .firstbold-searchbox__form {
-    bottom: -50%;
+  .searchbox__form {
+    bottom: -30%;
     padding: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

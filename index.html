@@ -10,68 +10,63 @@
 
 <body>
     <div class="firstbold">
-        <div class="firstbold-banner">
-            <header class="firstbold-header">
-                <a href="#"><img class="firstbold-header__logo" src="./src/assets/icons/logo.svg"
-                        alt="logo of Event ticketing"></a>
-                <div class="firstbold-header__menu-burger">
-                    <div class="menu-burger__line"></div>
+        <header class="firstbold-header">
+            <a href="#"><img class="firstbold-header__logo" src="./src/assets/icons/logo.svg"
+                    alt="logo of Event ticketing"></a>
+            <div class="firstbold-header__menu-burger">
+                <div class="menu-burger__line"></div>
+            </div>
+            <nav class="firstbold-header__navbar">
+                <ul class="navbar__menu">
+                    <li class="navbar__menu-item"> <a href="#shedule">Schedule</a></li>
+                    <li class="navbar__menu-item"><a href="#speakers">Speakers</a></li>
+                    <li class="navbar__menu-item"><a href="#">Ticket</a></li>
+                    <li class="navbar__menu-item"><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="navbar__button" type="button">Login</button>
+            </nav>
+        </header>
+        <div class="firstbold-content">
+            <div class="firstbold-content__picture">
+                <img class="firstbold-content__picture-img" src="././src/assets/images/band.png" alt="photo_of_band">
+            </div>
+            <div class="firstbold-content__description">
+                <div class="section-header">
+                    <h1 class="section-header__title">SBS MTV The Kpop Show Ticket Package</h1>
+                    <p class="section-header__subtitle">Look no further! Our SBS The Show tickets are the
+                        simplest
+                        way for
+                        you to experience a live Kpop recording.</p>
                 </div>
-                <nav class="firstbold-header__navbar">
-                    <ul class="navbar__menu">
-                        <li class="navbar__menu-item"> <a href="#shedule">Schedule</a></li>
-                        <li class="navbar__menu-item"><a href="#speakers">Speakers</a></li>
-                        <li class="navbar__menu-item"><a href="#">Ticket</a></li>
-                        <li class="navbar__menu-item"><a href="#contact">Contact</a></li>
-                    </ul>
-                    <button class="navbar__button" type="button">Login</button>
-                </nav>
-            </header>
-            <div class="wrapper-banner">
-                <div class="firstbold-content">
-                    <div class="firstbold-content__picture">
-                        <img class="firstbold-content__picture-img" src="././src/assets/images/band.png"
-                            alt="photo_of_band">
-                    </div>
-                    <div class="firstbold-content__description">
-                        <div class="section-header">
-                            <h1 class="section-header__title">SBS MTV The Kpop Show Ticket Package</h1>
-                            <p class="section-header__subtitle">Look no further! Our SBS The Show tickets are the
-                                simplest
-                                way for
-                                you to experience a live Kpop recording.</p>
-                        </div>
-                        <button class="firstbold-content__button" type="button">Get Ticket</button>
-                        <button class="firstbold-content__button" type="button">Learn More</button>
-                    </div>
-                </div>
+                <button class="firstbold-content__button" type="button">Get Ticket</button>
+                <button class="firstbold-content__button" type="button">Learn More</button>
             </div>
         </div>
-        <div class="firstbold-searchbox">
-            <div class="wrapper-searchbox">
-                <form class="firstbold-searchbox__form" id="searchbox-form" name="searchbox-form" method="post">
-                    <div class="searchbox-form__item">
-                        <label class="searchbox-form__label" for="search-event">Search Event</label>
-                        <input class="searchbox-form__input" type="text" id="search-event" placeholder="Konser Jazz"
-                            name="search-event" autocomplete="name" required aria-label="Write the title of event">
-                    </div>
-                    <div class="searchbox-form__item">
-                        <label class="searchbox-form__label" for="search-place">Place</label>
-                        <input class="searchbox-form__input" type="text" id="search-place" placeholder="Indonesia"
-                            name="search-place" autocomplete="country" required
-                            aria-label="Write the place where the event occurred">
-                    </div>
-                    <div class="searchbox-form__item">
-                        <label class="searchbox-form__label" for="search-time">Time</label>
-                        <select class="searchbox-form__select" name="search-time" id="search-time">
-                            <option class="searchbox-form__option" value="Any date" selected>Any date</option>
-                            <option class="searchbox-form__option" value="Last week">Last week</option>
-                            <option class="searchbox-form__option" value="Last month">Last month</option>
-                            <option class="searchbox-form__option" value="Last year">Last year</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
+    </div>
+    <div class="searchbox">
+        <div class="wrapper-searchbox">
+            <form class="searchbox__form" id="searchbox-form" name="searchbox-form" method="post">
+                <div class="searchbox-form__item">
+                    <label class="searchbox-form__label" for="search-event">Search Event</label>
+                    <input class="searchbox-form__input" type="text" id="search-event" placeholder="Konser Jazz"
+                        name="search-event" autocomplete="name" required aria-label="Write the title of event">
+                </div>
+                <div class="searchbox-form__item">
+                    <label class="searchbox-form__label" for="search-place">Place</label>
+                    <input class="searchbox-form__input" type="text" id="search-place" placeholder="Indonesia"
+                        name="search-place" autocomplete="country" required
+                        aria-label="Write the place where the event occurred">
+                </div>
+                <div class="searchbox-form__item">
+                    <label class="searchbox-form__label" for="search-time">Time</label>
+                    <select class="searchbox-form__select" name="search-time" id="search-time">
+                        <option class="searchbox-form__option" value="Any date" selected>Any date</option>
+                        <option class="searchbox-form__option" value="Last week">Last week</option>
+                        <option class="searchbox-form__option" value="Last month">Last month</option>
+                        <option class="searchbox-form__option" value="Last year">Last year</option>
+                    </select>
+                </div>
+            </form>
         </div>
     </div>
     <div class="upcoming" id="shedule">
@@ -236,8 +231,8 @@
                 </div>
             </div>
             <div class="blog__animation">
-            <button class="blog__button" type="button">Load More</button>
-            <div class="blog__loader"></div>
+                <button class="blog__button" type="button">Load More</button>
+                <div class="blog__loader"></div>
             </div>
         </div>
     </div>

@@ -2,9 +2,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 100vw;
-}
-
-.firstbold-banner {
+    position: relative;
     background-image: url(../assets/images/photo_of_people_at_concert.png);
     background-color: var(--color-subtitle);
     background-size: cover;
@@ -20,15 +18,11 @@
     }
 }
 
-.wrapper-banner {
+.firstbold-content {
     position: relative;
     margin: 0 auto;
     max-width: 1440px;
-    max-height: 720px;
     padding: 0 15px;
-}
-
-.firstbold-content {
     display: flex;
     justify-content: center;
     gap: 42.16px;
