@@ -292,7 +292,7 @@ input::placeholder {
 
 .firstbold-header {
   position: relative;
-  height: 100px;
+  padding-top: 24px;
   margin: 0 auto;
   max-width: 1440px;
   display: -webkit-box;
@@ -409,7 +409,7 @@ input::placeholder {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 42.16px;
-  min-height: 620px;
+  min-height: 720px;
 }
 
 .firstbold-content__picture {
